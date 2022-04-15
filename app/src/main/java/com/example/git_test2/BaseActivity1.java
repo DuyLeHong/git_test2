@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.Menu;
 
+import com.example.git_test2.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -18,7 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.git_test2.databinding.ActivityBase1Binding;
 
-public class BaseActivity1 extends AppCompatActivity {
+public class BaseActivity1 extends AppCompatActivity { // fix bug in BaseActivity
 
     private AppBarConfiguration mAppBarConfiguration;
 
