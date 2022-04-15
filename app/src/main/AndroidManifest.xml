@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.git_test2">
 
     <application
@@ -9,6 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Git_test2">
+        <activity
+            android:name=".BaseActivity1"
+            android:exported="false"
+            android:label="@string/title_activity_base1"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.Git_test2.NoActionBar"
+            tools:targetApi="24" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
