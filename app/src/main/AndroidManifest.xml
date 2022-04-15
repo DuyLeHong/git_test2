@@ -12,19 +12,22 @@
         android:theme="@style/Theme.Git_test2">
         <activity
             android:name=".BaseActivity1"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_base1"
             android:resizeableActivity="true"
             android:theme="@style/Theme.Git_test2.NoActionBar"
-            tools:targetApi="24" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            tools:targetApi="24">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
